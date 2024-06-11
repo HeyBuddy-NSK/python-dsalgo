@@ -1,4 +1,4 @@
-def dfs_iterative(graph, start):
+def dfs(graph, start):
     """
     Perform an iterative Depth-First Search on the graph starting from the given node.
 

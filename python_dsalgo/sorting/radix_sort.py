@@ -15,7 +15,7 @@ def counting_sort(arr,exp):
         count[i] += count[i-1]
         
     i = n-1
-    while i > 0:
+    while i >= 0:
         index = arr[i]//exp
         output[count[index%10] - 1] = arr[i]
         count[index%10] -= 1

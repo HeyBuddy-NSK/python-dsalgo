@@ -1,5 +1,5 @@
 
-class Graph:
+class GraphAL:
     def __init__(self):
         """
         Graph Adjacency List Implementation 

@@ -1,4 +1,4 @@
-class GraphMatrix:
+class GraphAM:
     def __init__(self,num_vertices):
         """
         Graph Adjacency Matrix Implementation
